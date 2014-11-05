@@ -1,0 +1,24 @@
+README for PacMail
+==================
+
+PacMail is an email notifier daemon for Arch Linux (pacman) updates.
+
+DEPENDENCIES
+============
+
+python >= 2.5
+pacman >= 3.0
+
+INSTALLATION
+============
+
+See the 'INSTALL' file.
+
+CONFIGURATION
+=============
+
+The PacMail configuration file is located at `/etc/pacmail.conf'.
+PacMail may use any SMTP server to send notifications. For local
+servers, the values 'smtp_host' and 'sender' must refer to the
+server's fully-qualified domain name, e.g. `mail.example.com' and
+`user@mail.example.com'.

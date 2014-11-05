@@ -1,0 +1,12 @@
+PacMail v0.1
+============
+
+- To install PacMail:
+
+  # make PREFIX=/usr DESTDIR=/ install
+
+- To run:
+
+  $ sudo pacmail start
+  - OR -
+  # pacmail start
